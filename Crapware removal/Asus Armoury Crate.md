@@ -1,5 +1,7 @@
 # Asus Armoury Crate (AC) [Windows]
 
+This guide might be either outdated quickly, or be useful for another iteration of this crapware as it tends to get a rebrand every couple of years.
+
 ## 1. Turn off auto-installation in the BIOS 
 
 Turn it off before booting on Windows so it does not auto-install and you don't have to go through the hassle of removing it.
