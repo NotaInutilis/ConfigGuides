@@ -2,6 +2,9 @@
 
 This guide might be either outdated quickly, or be useful for another iteration of this crapware as it tends to get a rebrand every couple of years.
 
+not specific as name and packaged sofware can change. asus whatever
+https://github.com/sammilucia/ASUS-G14-Debloating/tree/main
+
 ## 1. Turn off auto-installation in the BIOS 
 
 Turn it off before booting on Windows so it does not auto-install and you don't have to go through the hassle of removing it.
@@ -29,6 +32,16 @@ If at this point, you have already used ACUT, you might want to reinstall AC in 
 https://www.asus.com/supportonly/armoury%20crate/helpdesk_download/
 
 ## 3. Manual labor
+
+driverstore, force delete if needed. only delete driver that is referenced by a service so as to not delete an actual useful driver.
+
+delete all 'asus' and armoury crate services
+
+terminal as admin:
+sc.exe delete servicename
+(bc driver or manual doesn't remove the service, it's inactive but le'ts clean)
+
+scheduled tasks
 
 ### Folders
 
