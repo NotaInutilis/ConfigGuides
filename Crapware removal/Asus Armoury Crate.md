@@ -41,6 +41,7 @@ Del asus folder in program files x86 and data (might need to end task of some ex
 
 Deletr services, track the executable from here. if in drivers, use driver removal thingie.
 C:\Windows\System32\ASUSACCI
+https://github.com/lostindark/DriverStoreExplorer
 
 ### Game library
 
@@ -49,3 +50,5 @@ game library in registry https://www.reddit.com/r/ASUS/comments/scsc70/comment/i
 
 ## Replace
 https://github.com/seerge/g-helper
+
+https://github.com/sammilucia/ASUS-G14-Debloating/tree/main
