@@ -46,6 +46,7 @@ scheduled tasks
 ### Folders
 
 ### Services
+https://github.com/seerge/g-helper/blob/main/debloat.bat
 services asus + gamesdk https://rdr-it.com/troubleshooting/supprimer-un-service-sous-windows/
 fichiers asus dans system32 + asus folder  qui restent après services
 https://github.com/seerge/g-helper/blob/main/app/Helpers/OptimizationService.cs
