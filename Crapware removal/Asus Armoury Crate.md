@@ -63,5 +63,6 @@ game library in registry https://www.reddit.com/r/ASUS/comments/scsc70/comment/i
 
 ## Replace
 https://github.com/seerge/g-helper
+some services reappear after installing driver.
 
 https://github.com/sammilucia/ASUS-G14-Debloating/tree/main
