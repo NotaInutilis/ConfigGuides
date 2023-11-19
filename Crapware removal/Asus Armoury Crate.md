@@ -48,7 +48,7 @@ scheduled tasks
 ### Services
 services asus + gamesdk https://rdr-it.com/troubleshooting/supprimer-un-service-sous-windows/
 fichiers asus dans system32 + asus folder  qui restent après services
-
+https://github.com/seerge/g-helper/blob/main/app/Helpers/OptimizationService.cs
 https://www.reddit.com/r/ASUS/comments/kddyw5/ai_suite_iii_complete_removal/
 Del asus folder in program files x86 and data (might need to end task of some exe)
 
