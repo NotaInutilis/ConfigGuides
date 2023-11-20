@@ -46,6 +46,8 @@ scheduled tasks
 ### Folders
 
 ### Services
+on laptop: deactivate services only, with ghelper (more options, down) or its bat script. need to keep the shitty driver (asussci2) installed with the control interface
+
 https://github.com/seerge/g-helper/blob/main/debloat.bat
 services asus + gamesdk https://rdr-it.com/troubleshooting/supprimer-un-service-sous-windows/
 fichiers asus dans system32 + asus folder  qui restent après services
@@ -64,6 +66,6 @@ game library in registry https://www.reddit.com/r/ASUS/comments/scsc70/comment/i
 
 ## Replace
 https://github.com/seerge/g-helper
-some services reappear after installing driver. (asussci2)
+some services reappear after installing driver. 
 
 https://github.com/sammilucia/ASUS-G14-Debloating/tree/main
