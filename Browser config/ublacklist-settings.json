@@ -46,8 +46,18 @@
       "name": "Super SEO Spam Suppressor",
       "url": "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/ublacklist.txt",
       "enabled": true
+    },
+    {
+      "name": "noqanon notainutilis",
+      "url": "https://raw.githubusercontent.com/NotaInutilis/no-qanon/master/ublacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "Nota Inutilis ~ personal filters",
+      "url": "https://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/ublacklist-perso.txt",
+      "enabled": true
     }
   ],
-  "updateInterval": 120,
-  "version": "8.3.5"
+  "updateInterval": 720,
+  "version": "8.3.8"
 }

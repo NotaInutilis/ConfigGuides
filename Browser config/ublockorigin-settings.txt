@@ -1,12 +1,11 @@
 {
-  "timeStamp": 1699723878010,
-  "version": "1.53.0",
+  "timeStamp": 1701367066864,
+  "version": "1.54.0",
   "userSettings": {
     "alwaysDetachLogger": false,
     "cloudStorageEnabled": true,
-    "externalLists": "https://malware-filter.gitlab.io/pup-filter/pup-filter.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AfricanLanguagesList.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiAmazonListForTwitch.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiFunctionalityRemovalList.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/DailyMotionSimplicity.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/EmptyPaddingRemover.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/ImgurPureImageryExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/JapaneseTextSoftener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/KnowYourMemePureBrowsingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/MediaPlayerGradientRemover.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/StopAutoplayOnYouTube.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitchPureViewingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitterPureReadingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/WikiaPureBrowsingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser\nhttps://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt\nhttps://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt",
+    "externalLists": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AfricanLanguagesList.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiAmazonListForTwitch.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiFunctionalityRemovalList.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/DailyMotionSimplicity.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/EmptyPaddingRemover.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/ImgurPureImageryExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/JapaneseTextSoftener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/KnowYourMemePureBrowsingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/MediaPlayerGradientRemover.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/StopAutoplayOnYouTube.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitchPureViewingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitterPureReadingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/WikiaPureBrowsingExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser\nhttps://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/adblock-perso.txt\nhttps://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt\nhttps://raw.githubusercontent.com/NotaInutilis/no-qanon/master/adblock.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt",
     "importedLists": [
-      "https://malware-filter.gitlab.io/pup-filter/pup-filter.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AfricanLanguagesList.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiAmazonListForTwitch.txt",
@@ -27,10 +26,11 @@
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/WikiaPureBrowsingExperience.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser",
+      "https://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/adblock-perso.txt",
       "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt",
+      "https://raw.githubusercontent.com/NotaInutilis/no-qanon/master/adblock.txt",
       "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-      "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt",
-      "https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt"
+      "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt"
     ],
     "popupPanelSections": 15
   },
@@ -122,10 +122,11 @@
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitchPureViewingExperience.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/TwitterPureReadingExperience.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/WikiaPureBrowsingExperience.txt",
+    "https://raw.githubusercontent.com/NotaInutilis/no-qanon/master/adblock.txt",
     "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://malware-filter.gitlab.io/pup-filter/pup-filter.txt",
-    "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt"
+    "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt",
+    "https://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/adblock-perso.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
