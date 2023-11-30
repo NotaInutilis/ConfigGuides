@@ -1,0 +1,5 @@
+# Title: Nota Inutilis ~ personal filters
+
+# Exceptions
+# https://github.com/DandelionSprout/adfilt/issues/925
+@*://pcgamingwiki.com/*
