@@ -3,3 +3,6 @@
 # Exceptions
 # https://github.com/DandelionSprout/adfilt/issues/925
 @*://pcgamingwiki.com/*
+
+# Spoilers
+title/ending explained/i
