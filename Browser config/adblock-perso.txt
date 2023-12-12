@@ -3,26 +3,28 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/NotaInutilis/ConfigGuides
 
-# Exceptions
+! Exceptions
 # https://github.com/DandelionSprout/adfilt/issues/925
 @@||pcgamingwiki.com^
+! Unbreak
+#@#.remodal
 
-# Wikia/Fandom
-# https://github.com/DandelionSprout/adfilt/issues/921
-# Removes the left lateral bar with Fandom self-promotional links, except on the main Fandom site.
-# Important features from this bar (search and login) are already present in the wiki's top bar menu.
+! Wikia/Fandom
+! https://github.com/DandelionSprout/adfilt/issues/921
+! Removes the left lateral bar with Fandom self-promotional links, except on the main Fandom site.
+! Important features from this bar (search and login) are already present in the wiki's top bar menu.
 fandom.com,~www.fandom.com##.global-navigation
-# Alternative rule clean the bar of self-promotion and recirculation links.
-# fandom.com,~www.fandom.com##.global-navigation__links
-# fandom.com,~www.fandom.com##.global-navigation__logo
-# Removes Fandom self-promotion links from the first top bar (mobile only).
+! Alternative rule clean the bar of self-promotion and recirculation links.
+! fandom.com,~www.fandom.com##.global-navigation__links
+! fandom.com,~www.fandom.com##.global-navigation__logo
+! Removes Fandom self-promotion links from the first top bar (mobile only).
 fandom.com##.mobile-global-navigation__left
-# Alternative rule which keeps the logo.
-# fandom.com##.mobile-global-navigation__links
-# Removes Fandom logo and link from the second top bar (mobile only).
+! Alternative rule which keeps the logo.
+! fandom.com##.mobile-global-navigation__links
+! Removes Fandom logo and link from the second top bar (mobile only).
 fandom.com##.mobile-global-navigation__logomark
-# Removes Fandom self-promotion from wiki's global footer, leaves important links such as ToS, privacy and help.
-# Does not apply to the main Fandom site as its footer uses different classes names.
+! Removes Fandom self-promotion from wiki's global footer, leaves important links such as ToS, privacy and help.
+! Does not apply to the main Fandom site as its footer uses different classes names.
 fandom.com##.global-footer__header
 fandom.com##.global-footer__section-fandom-overview.global-footer__section
 fandom.com##.global-footer__section-social-links.global-footer__section
