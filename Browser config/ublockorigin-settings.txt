@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1701367066864,
+  "timeStamp": 1701873141118,
   "version": "1.54.0",
   "userSettings": {
     "alwaysDetachLogger": false,
@@ -125,8 +125,8 @@
     "https://raw.githubusercontent.com/NotaInutilis/no-qanon/master/adblock.txt",
     "https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt",
-    "https://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/adblock-perso.txt"
+    "https://raw.githubusercontent.com/NotaInutilis/ConfigGuides/main/Browser%20config/adblock-perso.txt",
+    "https://raw.githubusercontent.com/NotaInutilis/Super-SEO-Spam-Suppressor/master/adblock.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
@@ -142,5 +142,5 @@
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-scripting: behind-the-scene false\nno-csp-reports: * true",
-  "userFilters": "! Wikia/Fandom\n\n! Removes the left lateral bar with Fandom self-promotional links, except on the main Fandom site.\n! Important features from this bar (search and login) are already present in the wiki's top bar menu.\nfandom.com,~www.fandom.com##.global-navigation\n! Alternative rule clean the bar of self-promotion and recirculation links.\n! fandom.com,~www.fandom.com##.global-navigation__links\n! fandom.com,~www.fandom.com##.global-navigation__logo\n\n! Removes Fandom self-promotion links from the first top bar (mobile only).\nfandom.com##.mobile-global-navigation__left\n! Alternative rule which keeps the logo.\nfandom.com##.mobile-global-navigation__links\n\n! Removes Fandom logo and link from the second top bar (mobile only).\nfandom.com##.mobile-global-navigation__logomark\n\n! Removes Fandom self-promotion from wiki's global footer, leaves important links such as ToS, privacy and help.\n! Does not apply to the main Fandom site as its footer uses different classes names.\nfandom.com##.global-footer__header\nfandom.com##.global-footer__section-fandom-overview.global-footer__section\nfandom.com##.global-footer__section-social-links.global-footer__section\nfandom.com##.global-footer__section-advertise.global-footer__section\nfandom.com##.global-footer__section-fandom-apps.global-footer__section\nfandom.com##.global-footer__section-fandom-stores.global-footer__section\n\n! 2023-10-03 https://gamerant.com\n! gamerant.com##.is-visible.w-article-limit\n"
+  "userFilters": ""
 }

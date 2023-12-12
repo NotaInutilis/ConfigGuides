@@ -76,3 +76,10 @@ dns custom
     - Windows Update > Options avancées > **Obtenir des mises à jour pour autres produtis Microsoft : OUI** 
 
 @DNS
+
+Gestionnaire des tâches > Applications de démarrage > **Microsoft Edge : DÉSACTIVÉ**
+
+Edge : désactiver startup
+Paramètres > Système
+    - **Démarrage rapide : DÉSACTIVÉ**
+    - **Continuer à exécuter les extensions et les applications en arrière-plan lorsque Microsoft Edge est fermé : DÉSACTIVÉ**
