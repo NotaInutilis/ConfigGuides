@@ -28,6 +28,5 @@ fandom.com##.mobile-global-navigation__logomark
 fandom.com##.global-footer__header
 fandom.com##.global-footer__section-fandom-overview.global-footer__section
 fandom.com##.global-footer__section-social-links.global-footer__section
-fandom.com##.global-footer__section-advertise.global-footer__section
 fandom.com##.global-footer__section-fandom-apps.global-footer__section
 fandom.com##.global-footer__section-fandom-stores.global-footer__section
