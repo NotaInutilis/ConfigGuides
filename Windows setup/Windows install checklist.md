@@ -42,7 +42,12 @@ désac nettoyeryur auto
 dns custom
 
 - Explorateur de fichiers > Options
-    - Général > **Ouvrir l'Explorateur de fichiers dans : Ce PC**
+    - Général
+        -  **Ouvrir l'Explorateur de fichiers dans : Ce PC**
+        -  Confidentialité
+            - **Afficher les fichiers récemment utilisés : NON**
+            - **Afficher les dossiers fréquemment utilisés : NON**
+            - **Afficher les fichiers de `Office.com` : NON**
     - Affichage
         - **Fichiers et dossiers cachés : Afficher les fichiers, dossiers et lecteurs cachés**
         - **Masquer les extensions des fichiers dont le type est connu : NON**
