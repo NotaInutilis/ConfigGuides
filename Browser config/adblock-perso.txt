@@ -4,13 +4,12 @@
 ! Homepage: https://github.com/NotaInutilis/ConfigGuides
 
 ! Exceptions
-# https://github.com/DandelionSprout/adfilt/issues/925
+! https://github.com/DandelionSprout/adfilt/issues/925
 @@||pcgamingwiki.com^
 ! Unbreak
 #@#.remodal
 
-! Wikia/Fandom
-! https://github.com/DandelionSprout/adfilt/issues/921
+! Wikia/Fandom, extends https://github.com/DandelionSprout/adfilt/blob/master/WikiaPureBrowsingExperience.txt
 ! Removes the left lateral bar with Fandom self-promotional links, except on the main Fandom site.
 ! Important features from this bar (search and login) are already present in the wiki's top bar menu.
 fandom.com,~www.fandom.com##.global-navigation
@@ -30,3 +29,6 @@ fandom.com##.global-footer__section-fandom-overview.global-footer__section
 fandom.com##.global-footer__section-social-links.global-footer__section
 fandom.com##.global-footer__section-fandom-apps.global-footer__section
 fandom.com##.global-footer__section-fandom-stores.global-footer__section
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/175395
+aftermath.site##div[class^="single_metaContainer"] > div[class^="PostContent_wrapper"] div[class^="ContentGate_wrapper"]
