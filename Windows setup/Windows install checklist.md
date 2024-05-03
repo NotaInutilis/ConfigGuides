@@ -55,8 +55,10 @@ dns custom
 
 - Paramètres
     - Accessibilité
-        - Touches rémanentes > **Raccourci clavier pour les touches rémanentes : DÉSACTIVÉ**
-        - Touches filtres > **Raccourci clavier pour les touches filtres : DÉSACTIVÉ**
+        - Clavier
+            - Touches rémanentes > **Raccourci clavier pour les touches rémanentes : DÉSACTIVÉ**
+            - Touches filtres > **Raccourci clavier pour les touches filtres : DÉSACTIVÉ**
+            - **Utilisez la touche Impr. écran pour ouvrir la capture d'écran : DÉSACTIVÉ**
     - Réseau et Internet
         - Wi-Fi
             - Propriétés du matériel > **Attribution du serveur DNS : MANUEL ; voir @DNS**
