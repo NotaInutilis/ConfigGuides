@@ -1,0 +1,188 @@
+Windows Registry Editor Version 5.00
+
+; This reg file needs to be applied to every user account.
+
+; Disable fast startup
+; https://www.elevenforum.com/t/turn-on-or-off-fast-startup-in-windows-11.1212/
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"HiberbootEnabled"=dword:00000000
+
+; Enable long paths (cmd only)
+; https://superuser.com/questions/1807770/enable-long-paths-on-win-11-home/1807797#1807797
+; https://www.elevenforum.com/t/windows-11-home-single-language-long-path-option-enabled-via-reg-edit.20459/post-384753
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+
+; Disable telemetry
+; https://winaero.com/how-to-disable-telemetry-and-data-collection-in-windows-10/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+; Disable "Notification Suggestions" notification
+; https://superuser.com/questions/1820188/turn-off-all-notifications-for-notification-suggestions/1835257#1835257
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.ActionCenter.SmartOptOut]
+"Enabled"=dword:00000000
+[HKEY_CLASSES_ROOT\AppUserModelId\Windows.ActionCenter.SmartOptOut]
+"ShowInSettings"=dword:00000001
+
+; Disable Windows Explorer's folder type auto discovery
+; https://winaero.com/speed-up-file-explorer-windows-11/
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
+"FolderType"="NotSpecified"
+
+; Disable startup sound
+; https://www.elevenforum.com/t/enable-or-disable-startup-sound-in-windows-11.85/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation]
+"DisableStartupSound"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\EditionOverrides]
+"UserSetting_DisableStartupSound"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableStartupSound"=dword:00000001
+
+; Disable lock screen
+; https://www.elevenforum.com/t/enable-or-disable-lock-screen-in-windows-11.1287/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001
+
+; Disable remote desktop
+; https://www.elevenforum.com/t/enable-or-disable-remote-desktop-in-windows-11.3531/
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"fDenyTSConnections"=dword:00000001
+"updateRDStatus"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fDenyTSConnections"=dword:00000001
+
+; Disable remote assistance
+; https://www.elevenforum.com/t/enable-or-disable-remote-assistance-connections-in-windows-11.8117/
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance]
+"fAllowToGetHelp"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fAllowToGetHelp"=dword:00000000
+
+; VERBOSE
+
+; Show BSOD details
+; https://winaero.com/show-bsod-details-instead-of-the-sad-smiley-in-windows-10/
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl]
+"DisplayParameters"=dword:00000001
+
+; Enable verbose logon messages
+; https://winaero.com/enable-verbose-logon-messages-in-windows-10/
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"VerboseStatus"=dword:00000001
+
+; COPILOT
+
+; Disable and remove Copilot
+; https://winaero.com/disable-windows-copilot/
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot]
+"TurnOffWindowsCopilot"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot]
+"TurnOffWindowsCopilot"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"HubsSidebarEnabled"=dword:00000000
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
+
+; Remove Copilot and "Find results in Web" in Windows Search
+;https://www.elevenforum.com/t/add-or-remove-copilot-and-find-results-in-web-in-windows-search-in-windows-11.5309/
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000001
+
+; Remove Copilot button on taskbar
+; https://www.elevenforum.com/t/add-or-remove-copilot-button-on-taskbar-in-windows-11.16015/
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowCopilotButton"=dword:00000000
+
+; Disable Recall Snapshots
+; https://www.elevenforum.com/t/enable-or-disable-recall-snapshots-in-windows-11.25460/#Three
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI]
+"DisableAIDataAnalysis"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsAI]
+"DisableAIDataAnalysis"=dword:00000001
+
+; Disable Cortana (obsolete, Cortana discontinuation)
+; https://winaero.com/disable-web-search-in-windows-10-taskbar/
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"CortanaConsent"=dword:00000001
+"AllowSearchToUseLocation"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+"DisableWebSearch"=dword:00000001
+
+; Disable Search Highlights
+; https://www.elevenforum.com/t/enable-or-disable-search-highlights-in-windows-11.5735/
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsDynamicSearchBoxEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"EnableDynamicContentInWSB"=dword:00000000
+
+; MICROSOFT EDGE
+
+; Allow uninstalling
+; https://winaero.com/uninstall-microsoft-edge-windows-11/
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge]
+"NoRemove"=dword:00000000
+
+; No desktop shortcuts after update
+; https://winaero.com/prevent-microsoft-edge-from-creating-desktop-shortcuts-after-update/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EdgeUpdate]
+"CreateDesktopShortcutDefault"=dword:00000000
+
+; Disable asking to be Default Browser
+; https://www.elevenforum.com/t/disable-microsoft-edge-asking-to-be-default-browser-in-windows-11.26771/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DefaultBrowserSettingEnabled"=dword:00000000
+
+; Disable Enhance Images (obsolete, Edge update)
+; https://www.elevenforum.com/t/enable-or-disable-enhance-images-in-microsoft-edge.15068/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"EdgeEnhanceImagesEnabled"=dword:00000000
+
+; Disable "Personalize your web experience"
+; https://winaero.com/how-to-disable-personalize-your-web-experience-prompt-in-microsoft-edge/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"PersonalizationReportingEnabled"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+"HideFirstRunExperience"=dword:00000001
+
+;  Disable "Rewrite with Copilot"
+; https://www.elevenforum.com/t/enable-or-disable-rewrite-with-copilot-in-microsoft-edge.24752/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ComposeInlineEnabled"=dword:00000000
+
+; Disable push notifications for sites
+; https://www.elevenforum.com/t/enable-or-disable-push-notifications-for-sites-in-microsoft-edge.25574/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"DefaultNotificationsSetting"=dword:00000002
+
+; Disable standalone sidebar (obsolete, Edge update)
+; https://www.elevenforum.com/t/enable-or-disable-standalone-sidebar-in-microsoft-edge.14779/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"StandaloneHubsSidebarEnabled"=dword:00000000
+
+; Disable startup boost
+; https://www.elevenforum.com/t/enable-or-disable-startup-boost-in-microsoft-edge.11116/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"StartupBoostEnabled"=dword:00000000
+
+; Disable prelaunch (obsolete, Edge update)
+; https://www.tenforums.com/tutorials/115545-enable-disable-microsoft-edge-pre-launching-windows-10-a.html
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main]
+"AllowPrelaunch"=dword:00000000
+
+; Disable background extensions and apps
+; https://www.elevenforum.com/t/enable-or-disable-background-extensions-and-apps-in-microsoft-edge.12097/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"BackgroundModeEnabled"=dword:00000000
+
+; ONEDRIVE
+
+; Disable user folder backup
+; https://winaero.com/how-to-disable-user-folder-backup-to-onedrive/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive]
+"KFMBlockOptIn"=dword:00000001

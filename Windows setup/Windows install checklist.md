@@ -1,45 +1,45 @@
 # Windows 10/11 post installation checklist
 
-All config that can't be automated and has to be manually done. There's too much, I can't remember all this shit.
+All config that can't be automated and has to be manually done. There's too much, I can't remember all of this shit.
 
 These are the settings that I have to change from the default of the Enterprise version. It's in French parce que c'est ça que j'utilise et traduire c'est chiant.
 
-- shutup/winaero
-    - désactiver cortana
-    - désactiver recherche web
-    - désactiver lockscreen
+- Gestionnaire des tâches > Applications de démarrage
+
+https://winaero.com/how-to-enable-full-context-menus-in-windows-11/
+https://www.elevenforum.com/t/disable-show-more-options-context-menu-in-windows-11.1589/
+
+- shutup/winaero/reg
+    - https://winaero.com/how-to-disable-ads-in-windows-11/
 - supprimer onedrive
 - fonctionnalités inutiles
     - hello
     - ie
     - media
-    -enregistreur d'actions
+    - enregistreur d'actions
 - sécu
-    fonctions
-    désac powershuell 2
-désac chiffrement auto
-clavier virtuel
-    son
-    correction
-defender
-    isolation du noyau
-    option application guard
-enable long path
-désac assistance à distance
-sons désactiver
-alim : désac démarrage rapide
-souris : dsac accélération
-gpu : profil couleur
-    full rgb sur écran pc
-    limité/adapté pour tv
-installer hevc
-    ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq
-    https://www.reddit.com/r/Windows10/comments/j58y6f/no_longer_free_windows_10_hevc_video_extensions/
-changement de clavier : mettre par défaut pour tout l'ordi
-    https://www.reddit.com/r/Windows11/comments/r4t4c6/comment/hmj1hqk/?context=3
-désac nettoyeryur auto
+    - fonctions
+    - désac powershuell 2
+- désac chiffrement auto
+- defender
+    - isolation du noyau
+    - option application guard
+- sons désactiver
+- souris : dsac accélération https://www.elevenforum.com/t/turn-on-or-off-enhance-pointer-precision-in-windows-11.7327/
+- gpu : profil couleur
+    - full rgb sur écran pc
+    - limité/adapté pour tv
+- installer hevc
+    - ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq
+    - https://www.reddit.com/r/Windows10/comments/j58y6f/no_longer_free_windows_10_hevc_video_extensions/
+- changement de clavier : mettre par défaut pour tout l'ordi
+    - https://www.reddit.com/r/Windows11/comments/r4t4c6/comment/hmj1hqk/?context=3
+- désac nettoyeryur auto https://www.elevenforum.com/t/enable-or-disable-storage-sense-cleanup-of-temporary-files-in-windows-11.26290/ https://www.elevenforum.com/t/turn-on-or-off-storage-sense-in-windows-11.1236/
 
-dns custom
+@DNS
+
+services à désactiver
+dmwappushsvc
 
 - Explorateur de fichiers > Options
     - Général
@@ -72,9 +72,9 @@ dns custom
         - **Afficher des recommandations pour les conseils, les raccourcis, les nouvelles applications, etc. : DÉSACTIVÉ**
         - **Dossiers > PARAMÈTRES, EXPLORATEUR DE FICHIERS, RÉSEAU, DOSSIER PERSIONNEL : ACTIVÉ**
     - Heure et langue > Saisie
-        - Clavier tactile > **Émettre des sons en cours de frappe : NON** #annoyance
+        - Clavier tactile > **Émettre des sons en cours de frappe : NON**
         - **Suggestions de texte multilingue : ACTIVÉ**
-        - **Corriger automatiquement les fautes d'orthographe : DÉSACTIVÉ** #annoyance
+        - **Corriger automatiquement les fautes d'orthographe : DÉSACTIVÉ**
         - **Informations sur la saisie : DÉSACTIVÉ**
     - Accessibilité > Effets visuels
         - **Toujours afficher les barres de défilement : ACTIVÉ**
@@ -82,11 +82,7 @@ dns custom
         - **Effets d'animation : DÉSACTIVÉ**
     - Windows Update > Options avancées > **Obtenir des mises à jour pour autres produtis Microsoft : OUI** 
 
-@DNS
-
-Gestionnaire des tâches > Applications de démarrage > **Microsoft Edge : DÉSACTIVÉ**
-
-Edge : désactiver startup
-Paramètres > Système
+REGEDITED
+- Edge > Paramètres > Système
     - **Démarrage rapide : DÉSACTIVÉ**
     - **Continuer à exécuter les extensions et les applications en arrière-plan lorsque Microsoft Edge est fermé : DÉSACTIVÉ**
