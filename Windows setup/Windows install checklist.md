@@ -9,8 +9,12 @@ These are the settings that I have to change from the default of the Enterprise 
 https://winaero.com/how-to-enable-full-context-menus-in-windows-11/
 https://www.elevenforum.com/t/disable-show-more-options-context-menu-in-windows-11.1589/
 
+https://www.elevenforum.com/t/enable-or-disable-location-services-in-windows-11.3003/
+https://www.regfiles.net/registry/disable-location-registry
+
 - shutup/winaero/reg
     - https://winaero.com/how-to-disable-ads-in-windows-11/
+    - https://www.regfiles.net/registry/disable-windows-10-ads-registry
 - supprimer onedrive
 - fonctionnalités inutiles
     - hello
