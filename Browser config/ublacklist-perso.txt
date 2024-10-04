@@ -1,5 +1,7 @@
 # Title: Nota Inutilis ~ personal filters
 
+host *= "fanon"i & host $= ".fandom.com"i
+
 # Exceptions
 # https://github.com/DandelionSprout/adfilt/issues/925
 @*://*.pcgamingwiki.com/*
