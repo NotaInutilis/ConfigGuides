@@ -214,3 +214,10 @@ Windows Registry Editor Version 5.00
 "ExtensionManifestV2Availability"=dword:00000002
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser]
 "ExtensionManifestV2Availability"=dword:00000002
+
+; SECURITY
+
+; Block Windows Plug-and-Play auto-installing insecure apps
+; https://www.bleepingcomputer.com/news/microsoft/how-to-block-windows-plug-and-play-auto-installing-insecure-apps/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Installer]
+"DisableCoInstallers"=dword:00000001
